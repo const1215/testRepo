@@ -1,0 +1,14 @@
+{
+  "homepage": "호스팅될 웹사이트 주소",
+  "scripts": {
+    "predeploy": "npx vite build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "three": "^0.152.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "vite": "^4.3.3"
+  }
+}
